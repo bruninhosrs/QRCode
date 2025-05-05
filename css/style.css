@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif; 
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: aquamarine;
+}
+
+.container-principal {
+    background-color: #fff;
+    border-radius: 10px;
+    height: 280px;
+    width: 400px;
+    padding: 15px;
+    transition: 0.2s;
+}
+
+.container-principal.active {
+    height: 500px;
+}
+
+#qr-header {
+    text-align: center;
+}
+
+#qr-header h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+#qr-header p {
+    color: #444;
+    font-size: 1rem;
+}
+
+#qr-form {
+    margin: 20px 15px; /* ele está na distancia de 15px da esquerda e da direita & 20px das extremidades*/
+}
+
+#qr-form input,
+#qr-form button {
+    width: 100%;
+    height: 40px;
+    border: none; /* Tira as bordas */
+    border-radius: 5px;
+    font-size: .9rem;
+}
+
+/* Aqui é o texto que está no input */
+#qr-form input {
+    border: 1px solid #333;
+    padding: 10px 15px;
+}
+
+#qr-form button {
+    font-weight: bold;
+    padding: 10px 15px;
+    background-color: rgba(47, 197, 2, 0.87);
+    color: #ffffff;
+    margin-top: 10px; /*Está a 10px de distancia do input da extremidade de cima */
+    cursor: pointer;
+    opacity: 0.9;
+    transition: 0.4s;
+}
+
+#qr-form button:hover {
+    opacity: 1;
+}
+
+#qr-code {
+    display: flex;
+    opacity: 0;
+    border: 1px solid #ccc;
+    padding: 30px 0;
+    margin: 20px 15px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.container-principal.active #qr-code {
+    opacity: 1;
+}
