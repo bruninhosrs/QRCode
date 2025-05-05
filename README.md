@@ -2,7 +2,7 @@
 
 Este é um projeto simples e eficiente de **Gerador de QR Code**, criado para treinar **HTML, CSS e JavaScript**. A aplicação permite que você **gere um QR Code em tempo real** a partir de qualquer URL ou texto digitado.
 
-👉 **Deploy online:** _[Clique aqui para acessar](https://bruninhosrs.github.io/TodoList/)_ (ajuste este link caso tenha outro link de deploy específico para este projeto)
+👉 **Deploy online:** [_\[https://bruninhosrs.github.io/QRCode/](https://bruninhosrs.github.io/QRCode/)
 
 ---
 
