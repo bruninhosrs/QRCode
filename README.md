@@ -44,6 +44,3 @@ Este é um projeto simples e eficiente de **Gerador de QR Code**, criado para tr
 - A integração com a API permite gerar QR Codes **em tempo real**, sem necessidade de backend ou configuração extra.
 
 ---
-
-🚀 **Nota:** Se precisar de mais instruções sobre como rodar o projeto localmente ou fazer melhorias futuras (ex: baixar o QR Code como imagem), me avise!
-
